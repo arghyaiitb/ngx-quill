@@ -20,7 +20,7 @@ export const defaultModules = {
     [{ align: [] }],
 
     ['clean'], // remove formatting button
-
+    ['table'], // adds the insert table button
     ['link', 'image', 'video'] // link and image, video
   ]
 }

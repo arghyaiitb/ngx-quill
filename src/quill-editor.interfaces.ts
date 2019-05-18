@@ -30,6 +30,7 @@ export interface QuillModules {
     bindings?: any
   } | boolean
   syntax?: boolean
+  table?: boolean
   toolbar?: QuillToolbarConfig | string | {
     container?: string | string[] | QuillToolbarConfig
     handlers?: {
