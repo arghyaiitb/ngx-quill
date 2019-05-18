@@ -2,27 +2,15 @@
 
 <img src="https://cloud.githubusercontent.com/assets/2264672/20601381/a51753d4-b258-11e6-92c2-1d79efa5bede.png" width="200px">
 
-ngx-quill is an angular (>=2) component for the [Quill Rich Text Editor](https://quilljs.com/).
+ngx-quill is an angular (>=2) component for the [Quill Rich Text Editor](https://quilljs.com/) v2 dev version.
+
+## This is a fork of ngx-quill , this package would support all the existing features and also additional new feature of table support for quill editor which is added in the latest dev version of quill   
 
 ## Donate/Support
 
 If you like my work, feel free to support it. Donations to the project are always welcomed :)
 
-<a href="https://www.buymeacoffee.com/bengtler" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-PayPal: [PayPal.Me/bengtler](http://paypal.me/bengtler)
-
-BTC Wallet Address:
-`3QVyr2tpRLBCw1kBQ59sTDraV6DTswq8Li`
-
-ETH Wallet Address:
-`0x394d44f3b6e3a4f7b4d44991e7654b0cab4af68f`
-
-LTC Wallet Address:
-`MFif769WSZ1g7ReAzzDE7TJVqtkFpmoTyT`
-
-XRP Wallet Address:
-`rXieaAC3nevTKgVu2SYoShjTCS2Tfczqx?dt=159046833`
+PayPal: [PayPal.Me/arghya2609](https://paypal.me/arghya2609)
 
 ## Examples
 
@@ -103,16 +91,16 @@ XRP Wallet Address:
 
 ## Installation
 
-- `npm install ngx-quill`
+- `npm install ngx-quill-v2`
 - for projects using Angular < v5.0.0 install `npm install ngx-quill@1.6.0`
 - install `@angular/core`, `@angular/common`, `@angular/forms`, `quill` and `rxjs` - peer dependencies of ngx-quill
 - include theme stylings: bubble.css, snow.css of quilljs in your index.html, or add them in your css/scss files with `@import` statements, or add them external stylings in your build process.
 
 ### For standard webpack, angular-cli and tsc builds
 
-- import `QuillModule` from `ngx-quill`:
+- import `QuillModule` from `ngx-quill-v2`:
 ```
-import { QuillModule } from 'ngx-quill'
+import { QuillModule } from 'ngx-quill-v2'
 ```
 - add `QuillModule` to the imports of your NgModule:
 ```
@@ -132,31 +120,6 @@ class YourModule { ... }
 
 **HINT:** *If you are using lazy loading modules, you have to add `QuillModule` to your imports in your root module to make sure the `Config` services is registered.*
 
-### For SystemJS builds (Config)
-
-- add quill and ngx-quill to your `paths`:
-```
-paths: {
-  ...
-  'ngx-quill': 'node_modules/ngx-quill/bundles/ngx-quill.umd.js',
-  'quill': 'node_modules/quill/dist/quill.js'
-}
-```
-- set format and dependencies in `packages`:
-```
-packages: {
-  'ngx-quill': {
-    format: 'cjs',
-    meta: {
-      deps: ['quill']
-    }
-  },
-  'quill': {
-    format: 'cjs'
-  }
-}
-```
-- follow the steps of **For standard webpack and tsc builds**
 
 ## Hint
 

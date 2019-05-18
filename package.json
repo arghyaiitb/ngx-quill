@@ -6,11 +6,11 @@
     "name": "Bengt Weiße"
   },
   "description": "An angular (>= v2) component for the easy use of the QuillJS rich text editor for v2",
-  "bugs": "https://github.com/arghyaiitb/ngx-quill/issues",
-  "homepage": "https://github.com/arghyaiitb/ngx-quill",
+  "bugs": "https://github.com/arghyaiitb/ngx-quill-v2/issues",
+  "homepage": "https://github.com/arghyaiitb/ngx-quill-v2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arghyaiitb/ngx-quill"
+    "url": "https://github.com/arghyaiitb/ngx-quill-v2"
   },
   "engines": {
     "node": ">= 8"
