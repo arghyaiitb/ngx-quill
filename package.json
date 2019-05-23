@@ -1,11 +1,11 @@
 {
   "name": "ngx-quill-v2",
   "license": "MIT",
-  "version": "5.1.0",
+  "version": "0.0.1",
   "author": {
-    "name": "Bengt Weiße"
+    "name": "Arghya Saha"
   },
-  "description": "An angular (>= v2) component for the easy use of the QuillJS rich text editor for v2",
+  "description": "An angular (>= v2) component for the easy use of the QuillJS rich text editor for v2 release. The v2 release is a dev preview which has new experimental features like table support.",
   "bugs": "https://github.com/arghyaiitb/ngx-quill-v2/issues",
   "homepage": "https://github.com/arghyaiitb/ngx-quill-v2",
   "repository": {

@@ -1,10 +1,12 @@
-# ngx-quill [![Build Status](https://travis-ci.org/KillerCodeMonkey/ngx-quill.svg?branch=develop)](https://travis-ci.org/KillerCodeMonkey/ngx-quill)
+# ngx-quill-v2
 
 <img src="https://cloud.githubusercontent.com/assets/2264672/20601381/a51753d4-b258-11e6-92c2-1d79efa5bede.png" width="200px">
 
-ngx-quill is an angular (>=2) component for the [Quill Rich Text Editor](https://quilljs.com/) v2 dev version.
+ngx-quill-v2 is an angular (>=2) component for the [Quill Rich Text Editor](https://quilljs.com/) v2 dev version.
 
 ## This is a fork of ngx-quill , this package would support all the existing features and also additional new feature of table support for quill editor which is added in the latest dev version of quill   
+
+I have kept the link of all the existing examples from [ngx-quill](https://github.com/killerCodeMonkey/ngx-quill). In addition to the examples I have added a new example using table support.
 
 ## Donate/Support
 
